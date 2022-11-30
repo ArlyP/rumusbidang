@@ -146,7 +146,7 @@ input{
     left: 5px;
   }
 }
-@media only screen and (max-width: 380px){
+@media only screen and (max-width: 385px){
   input{
     padding-left: 3px;
     left: 10px;
