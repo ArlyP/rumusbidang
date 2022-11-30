@@ -42,6 +42,7 @@ header{
 }
 
 
+
 button{
     margin-top: 5px;
 }
@@ -111,7 +112,7 @@ footer{
 }
 
 
-@media only screen and (max-width: 480px){
+@media only screen and (max-width: 420px){
   .rumus {
     display: block;
     justify-content: center;
@@ -125,6 +126,8 @@ footer{
 #persegi,
 #persegi-panjang,
 #segitiga{
+
+  align-items: center;
   justify-content: center;
   display: block;
 }
@@ -132,36 +135,20 @@ footer{
 input{
   position: relative;
   left: 30px;
-}
+} */
 
 }
 
 @media only screen and (max-width: 400px){
   input{
-    left: 10px;
+    left: 20px;
   }
 }
 @media only screen and (max-width: 360px){
   input{
-    left: 5px;
+    margin-right: 5px;
+    left: -3px;
   }
 }
-@media only screen and (max-width: 385px){
-  input{
-    padding-left: 3px;
-    left: 10px;
-  }
-  
-  @media only screen and (max-width: 350px){
-  input{
-    padding-left: 3px;
-    left: 0px;
-  }
-  
-  @media only screen and (max-width: 335px){
-  input{
-    padding-left: 3px;
-    left: -5px;
-  }
-}
+
 
