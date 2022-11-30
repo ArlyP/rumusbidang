@@ -146,7 +146,7 @@ input{
 }
 @media only screen and (max-width: 360px){
   input{
-    left: -2px;
+    left: -3px;
   }
 }
 
