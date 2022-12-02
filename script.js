@@ -1,3 +1,6 @@
+import 'animate.css';
+
+
 // luas persegi
 let submit = document.getElementById('submit')
 
@@ -46,6 +49,7 @@ submitLS.addEventListener('click', function(){
     let hasilLS = document.getElementById('hasilLS');
     hasilLS.innerText = Number ( 1/2 * alasLS.value * tinggiLS.value );
 });
+
 // keliling segitiga
 let submitKS = document.getElementById('submitKS')
 
@@ -55,4 +59,21 @@ submitKS.addEventListener('click', function(){
     let cKS = document.getElementById('cKS');
     let hasilKS = document.getElementById('hasilKS');
     hasilKS.innerText = Number(aKS.value) + Number(bKS.value) + Number(cKS.value);
+});
+
+// Luas Lingkaran
+let submitLL = document.getElementById('submitLL')
+
+submitLL.addEventListener('click', function(){
+    let rL = document.getElementById('rL');
+    let hasilLL = document.getElementById('hasilLL');
+    hasilLL.innerText = Number( 3.14 * rL.value * rL.value);
+});
+// Kelilins Lingkaran
+let submitLK = document.getElementById('submitLK')
+
+submitLK.addEventListener('click', function(){
+    let rLK = document.getElementById('rLK');
+    let hasilLK = document.getElementById('hasilLK');
+    hasilLK.innerText = Number( 2 * 3.14 * rLK.value);
 });

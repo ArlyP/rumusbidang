@@ -5,8 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="menu.css">
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="stylesheet" href="/node_modules/animate.css/animate.css">
     <link
       href="https://fonts.googleapis.com/css2?family=Anek+Devanagari:wght@200&display=swap"
       rel="stylesheet"
@@ -17,14 +19,23 @@
     <header>
       <h1>RUMUS BIDANG</h1>
     </header>
+    <details>
+      <summary></summary>
+      <nav class="menu">
+        <a href="#persegi">Persegi</a>
+        <a href="#persegi-panjang">Persegi Panjang</a>
+        <a href="#segitiga">Segitiga</a>
+        <a href="#lingkaran">Lingkaran</a>
+      </nav>
+    </details>
+    
 
-    <main class="rumus">
-      <!-- PERSEGI -->
-      <div class="wrapper">  
+    <!-- PERSEGI -->
+    <main class="rumus " id="persegi">
+      <div class="wrapper animate__animated animate__zoomInUp">  
         <h2>Persegi</h2>
-        <section id="persegi">
+        <section class="persegi ">
           <div class="kotak-rumus">
-
           <p>Luas</p>
           <p>S x S</p>
           <form action="">
@@ -47,16 +58,13 @@
         </div>
       </section>
     </div>
-
-      
     </main>
     
-    <main class="rumus">
-      
-      <!-- PERSEGI PANJANG -->
-      <div class="wrapper">
+    <!-- PERSEGI PANJANG -->
+    <main class="rumus" id="persegi-panjang">
+      <div class="wrapper animate__animated animate__zoomInUp">
         <h2>Persegi Panjang</h2>
-        <section id="persegi-panjang">
+        <section class="persegi-panjang">
           <div class="kotak-rumus">
           <p><strong>Luas</strong> </p>
           <p>P x L</p>
@@ -69,6 +77,7 @@
           </form>
           <button id="submitPL" class="button-55" role="button">Submit</button>
         </div>
+
         <div class="kotak-rumus">
           <p><strong> Keliling</strong></p>
           <p>2 (P + L)</p>
@@ -85,11 +94,11 @@
     </main>
   </div>
     
-    <main class="rumus">
-      <!-- SEGITIGA -->
-      <div class="wrapper"> 
+  <!-- SEGITIGA -->
+    <main class="rumus" id="segitiga">
+      <div class="wrapper animate__animated animate__zoomInUp"> 
         <h2>Segitiga</h2>
-        <section id="segitiga">
+        <section class="segitiga">
           <div class="kotak-rumus">
           <p><strong>Luas</strong></p>
           <p>1/2 x a x t</p>
@@ -103,6 +112,7 @@
           <button id="submitLS" class="button-55" role="button">Submit</button>
         </div>
         <div class="kotak-rumus">
+
           <p><strong>Keliling</strong></p>
           <p>a + b + c</p>
           <form action="">
@@ -115,6 +125,40 @@
             <div id="hasilKS">hasil</div>
           </form>
           <button id="submitKS" class="button-55" role="button">Submit</button>
+        </div>
+      </section>
+    </div>
+    </main>
+
+    <!-- LINGKARAN -->
+    <main class="rumus" id="lingkaran">
+      <div class="wrapper animate__animated animate__zoomInUp"> 
+        <h2>Lingkaran</h2>
+        <section class="lingkaran">
+          <div class="kotak-rumus">
+          <p><strong>Luas</strong></p>
+          <p>π x r x r</p>
+          <form action="">
+            <label for="">π :</label>
+            <p>3.14</p>
+            <label for="">r:</label>
+            <input id="rL" type="number" value="" placeholder="" />
+            <div id="hasilLL">hasil</div>
+          </form>
+          <button id="submitLL" class="button-55" role="button">Submit</button>
+        </div>
+        
+        <div class="kotak-rumus">
+          <p><strong>Luas</strong></p>
+          <p>2 x π x r </p>
+          <form action="">
+            <label for="">π :</label>
+            <p>3.14</p>
+            <label for="">r:</label>
+            <input id="rLK" type="number" value="" placeholder="" />
+            <div id="hasilLK">hasil</div>
+          </form>
+          <button id="submitLK" class="button-55" role="button">Submit</button>
         </div>
       </section>
     </div>

@@ -15,7 +15,6 @@ header{
 
 
 .rumus {
-    display: flex;
     justify-content: center;
     margin: 100px;
     height: max-content;
@@ -24,9 +23,10 @@ header{
     color: white;
     font-size: 1.2rem;
 }
-#persegi,
-#persegi-panjang,
-#segitiga{
+.persegi,
+.persegi-panjang,
+.segitiga,
+.lingkaran{
   justify-content: center;
   display: flex;
 }
@@ -40,6 +40,7 @@ header{
     padding: 20px;
     border: 1px rgb(245, 240, 240) solid;
 }
+
 
 
 
@@ -123,9 +124,11 @@ footer{
     color: white;
     font-size: 1.2rem;
 }
-#persegi,
-#persegi-panjang,
-#segitiga{
+
+.persegi,
+.persegi-panjang,
+.segitiga,
+.lingkaran{
 
   align-items: center;
   justify-content: center;
@@ -135,7 +138,7 @@ footer{
 input{
   position: relative;
   left: 30px;
-} */
+} 
 
 }
 
@@ -146,7 +149,8 @@ input{
 }
 @media only screen and (max-width: 360px){
   input{
-   left: -3.3px;
+    
+    left: -3px;
   }
 }
 
