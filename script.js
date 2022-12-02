@@ -1,6 +1,3 @@
-import 'animate.css';
-
-
 // luas persegi
 let submit = document.getElementById('submit')
 
